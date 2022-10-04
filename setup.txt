@@ -3,7 +3,9 @@ git --version
 npg
 npm install -g @angular/cli @angular/core
 ng serve --open
+ng build
 git add .
-git --configglobal user.email "tungit@gmail.com"
-git --configglobal user.name "vantinhkhuc"
+git config --global user.email "tungit@gmail.com"
+git config --global user.name "vantinhkhuc"
 git commit -m "commit date:10/04/22"
+git checkout -b HelloWorld #tạo branch mới
