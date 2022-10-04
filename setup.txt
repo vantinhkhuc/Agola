@@ -1,0 +1,9 @@
+node -v
+git --version
+npg
+npm install -g @angular/cli @angular/core
+ng serve --open
+git add .
+git --configglobal user.email "tungit@gmail.com"
+git --configglobal user.name "vantinhkhuc"
+git commit -m "commit date:10/04/22"
